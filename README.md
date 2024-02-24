@@ -1,1 +1,1 @@
-# guess_the_word
+# word_guessing_game

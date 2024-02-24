@@ -1,4 +1,4 @@
-# guess_the_word.py
+# word_guessing_game.py
 
 import random
 
@@ -19,7 +19,7 @@ def display_word(word, guessed_letters):
     return displayed_word
 
 def play_game():
-    print("=== Guess the Word Game ===")
+    print("=== Word Guessing Game ===")
     selected_word = choose_word()
     guessed_letters = set()
     attempts_left = 6
@@ -36,6 +36,7 @@ def play_game():
         if guess not in selected_word:
             attempts_left -= 1
             print(f"Wrong guess! Attempts left: {attempts_left}")
+
         else:
             print("Correct guess!")
 

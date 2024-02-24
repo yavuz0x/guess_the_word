@@ -1,0 +1,5 @@
+# requirements.txt
+
+# Projende kullanacağın kütüphaneleri ve sürümlerini buraya ekleyebilirsin.
+# Örneğin:
+requests==2.26.0
